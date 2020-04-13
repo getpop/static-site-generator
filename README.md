@@ -16,7 +16,7 @@ Create a static version of the site
 Via Composer
 
 ``` bash
-$ composer require getpop/static-site-generator dev-master
+composer require getpop/static-site-generator dev-master
 ```
 
 **Note:** Your `composer.json` file must have the configuration below to accept minimum stability `"dev"` (there are no releases for PoP yet, and the code is installed directly from the `master` branch):
@@ -44,7 +44,7 @@ Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed re
 ## Testing
 
 ``` bash
-$ composer test
+composer test
 ```
 
 ## Contributing
