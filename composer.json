@@ -19,7 +19,7 @@
     "prefer-stable": true,
     "require": {
         "php" : "~7.1",
-        "getpop/migrate-static-site-generator": "^1.0@dev"
+        "getpop/migrate-static-site-generator": "~0.1"
     },
     "require-dev": {
         "phpunit/phpunit" : ">=7.0",
