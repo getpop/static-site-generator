@@ -20,12 +20,13 @@ Via Composer
 composer require getpop/static-site-generator
 ```
 
-<!--
 ## Usage
 
+Initialize the component:
+
 ``` php
+\PoP\SSG\Component::initialize();
 ```
--->
 
 ## Standards
 
