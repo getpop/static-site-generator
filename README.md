@@ -25,7 +25,9 @@ composer require getpop/static-site-generator
 Initialize the component:
 
 ``` php
-\PoP\SSG\Component::initialize();
+\PoP\Root\ComponentLoader::initializeComponents([
+    \PoP\SSG\Component::class,
+]);
 ```
 
 ## Standards
